@@ -12,13 +12,13 @@ document.getElementById("btnSi").addEventListener("click", function() {
             <p><b>¡Feliz San Valentín, pedazo de caca!</b> 💕</p>
 
             <div class="img-container">
-                <img src="imagen1.jpeg" alt="Imagen romántica">
-                <img class="heart-balloon" src="goblo-corazon.png" alt="Globo de corazón">
+                <img src="imagen1.jpg" alt="Imagen romántica">
+                <img class="heart-balloon" src="globo-corazon.png" alt="Globo de corazón">
             </div>
 
             <div class="img-container">
-                <img src="imagen2.jpeg" alt="Otra imagen romántica">
-                <img class="heart-balloon" src="goblo-corazon.png" alt="Globo de corazón">
+                <img src="imagen2.jpg" alt="Otra imagen romántica">
+                <img class="heart-balloon" src="globo-corazon.png" alt="Globo de corazón">
             </div>
         </div>
     `;
