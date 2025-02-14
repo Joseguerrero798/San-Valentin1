@@ -9,7 +9,7 @@ document.getElementById("btnSi").addEventListener("click", function() {
             <p>Eres alguien con un corazón enorme, con una calidez y una energía que hacen que cualquier conversación sea un refugio, una fuente de alegría y complicidad.</p>
             <p>Hoy, en este día de San Valentín, quiero recordarte lo valiosa que eres, no solo para mí, sino para todos los que tienen la suerte de conocerte. El mundo necesita más personas como tú: personas que inspiran, que contagian alegría, que tienen una esencia tan auténtica y tan pura.</p>
             <p>Gracias por ser tú, por tu forma de ser, por la luz que transmites y por permitirme ser parte de tu vida. Espero que este sea solo el inicio de una amistad que dure por mucho tiempo, porque sinceramente, no me imagino mis días sin tu presencia.</p>
-            <p><b>¡Feliz San Valentín Querida Dolli</b> 💕</p>
+            <p><b>¡Feliz San Valentín, pedazo de caca!</b> 💕</p>
 
             <div class="img-container">
                 <img src="imagen1.jpeg" alt="Imagen romántica">
