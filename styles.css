@@ -13,7 +13,26 @@ body {
     position: relative;
 }
 
-/* Contenedor principal */
+/* Animación de corazones flotando */
+.heart {
+    position: absolute;
+    color: red;
+    font-size: 30px;
+    opacity: 0.7;
+    animation: float 5s linear infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
+
 .container {
     background: white;
     padding: 20px;
@@ -23,7 +42,6 @@ body {
     z-index: 1;
 }
 
-/* Botones */
 h1 {
     color: #d63384;
     font-size: 28px;
@@ -51,56 +69,27 @@ button:hover {
     transform: scale(1.1);
 }
 
-/* Corazones flotando */
-.hearts-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
+#respuesta {
+    margin-top: 20px;
 }
 
-.heart {
-    position: absolute;
-    color: red;
-    font-size: 30px;
-    opacity: 0.7;
-    animation: float 5s linear infinite;
-}
-
-@keyframes float {
-    0% {
-        transform: translateY(100vh);
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(-10vh);
-        opacity: 0;
-    }
-}
-
-/* Estilos de la carta */
+/* Estilos para la carta */
 .carta {
     background: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 50%;
-    height: 60vh;
+    max-width: 400px;
     margin: 20px auto;
     opacity: 0;
     transform: scale(0.5);
     transition: opacity 0.5s ease, transform 0.5s ease;
-    overflow-y: auto;
-    display: none;
 }
 
 .carta.mostrar {
     opacity: 1;
     transform: scale(1);
-    display: block;
 }
 
 .carta h2 {
@@ -110,9 +99,7 @@ button:hover {
 .carta p {
     font-size: 18px;
     color: #333;
-    text-align: justify;
-    padding: 0 10px;
-    line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 .carta img {
@@ -121,4 +108,3 @@ button:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
